@@ -20,7 +20,7 @@ fibonacci << 1 << 2
 #next_term = fibonacci[i] + fibonacci[i-1]
 
 i = 1
-while i <= 4000000
+while i <= 4000000 # should be 3,999,998 beacuse we already have two terms in the array
   fibonacci << fibonacci[i] + fibonacci[i-1]
   i += 1
 end
@@ -32,3 +32,7 @@ fibonacci.each do |i|
 end
 
 puts even_numbers_sum
+
+# brute force doesn't seem to work; was killed by the OS:
+#/project_euler [git: master] $ ruby problem_2.rb
+#Killed: 9
