@@ -36,3 +36,6 @@ puts even_numbers_sum
 # brute force doesn't seem to work; was killed by the OS:
 #/project_euler [git: master] $ ruby problem_2.rb
 #Killed: 9
+
+# Try out other looping structures and see if they make a difference in processing times
+# https://hgducharme.gitbooks.io/ruby-programming/ruby_loops/README.html
